@@ -1,4 +1,4 @@
-Getting key EXTERNAL-ACCESS-KEY for service instance mysql-dev as raj...
+Getting key EXTERNAL-ACCESS-KEY for service instance mysql-dev as raj
 
 {
  "hostname": "10.0.16.64",
