@@ -88,7 +88,6 @@ erty must be the key of the language.\n\n#sonar.language=cobol\n\n# Additional p
                 - name: pcfpassword
                   password: password@123
     builders:
-      - shell: "cf login -a https://api.system.cogpcfdevops.com --skip-ssl-validation -u $pcfusername -p $pcfpassword -o \"Raj PCF\" -s Development\ncf push -f manifest
--dev.yml"
+      - shell: "cf login -a https://api.system.cogpcfdevops.com --skip-ssl-validation -u $pcfusername -p $pcfpassword -o \"Raj PCF\" -s Development\ncf push -f manifest -dev.yml"
 - docker_image:
     name: devopsbasservice/basejenkins_maven_git_java
