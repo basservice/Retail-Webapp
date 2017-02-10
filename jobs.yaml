@@ -1,5 +1,5 @@
 - project:
-    name: PCF_DEMO
+    name: PCF_DEMO_TEST
     jobs:
         - 'pcfbuild'
         - 'pcfcodeanalysis'
